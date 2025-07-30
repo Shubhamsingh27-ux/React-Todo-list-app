@@ -18,6 +18,7 @@ const App = () => {
     }
   }, [])
 
+  
   const saveToLS = () => {
     localStorage.setItem("todos", JSON.stringify(todos))
   }
